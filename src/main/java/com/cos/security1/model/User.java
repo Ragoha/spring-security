@@ -7,6 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import java.sql.Time;
 import java.sql.Timestamp;
 
 @Entity
@@ -20,6 +21,8 @@ public class User {
     private String password;
     private String email;
     private String role;
+
+//    private Timestamp loginDate;
 
     @CreationTimestamp
     private Timestamp createDate;
