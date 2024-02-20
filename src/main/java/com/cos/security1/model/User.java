@@ -24,6 +24,9 @@ public class User {
 
 //    private Timestamp loginDate;
 
+    private String provider; //google
+    private String providerId; //googleId
+
     @CreationTimestamp
     private Timestamp createDate;
 
